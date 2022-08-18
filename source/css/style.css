@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,200&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.list_social{
+    background: #141414;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+.list_social ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.list_social ul li{
+    margin: 0 10px;
+}
+
+.list_social ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.list_social ul li a:hover{
+    color: #016FB9;
+}
+
+.list_social h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
