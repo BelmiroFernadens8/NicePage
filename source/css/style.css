@@ -5,58 +5,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.list_social{
-    background: #141414;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    padding: 10px;
-}
+/* Definindo o header */
 
-.list_social ul{
-    list-style: none;
-    display: flex;
-    margin: 0;
-}
-
-.list_social ul li{
-    margin: 0 10px;
-}
-
-.list_social ul li a{
-    text-decoration: none;
-    color: white;
-}
-
-.list_social ul li a:hover{
-    color: #016FB9;
-}
-
-.list_social h3{
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 0;
-}
-
-/* ------------------------------------------------------------------ */
-
-header nav .container ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-
-header nav .container ul li{
-    margin: 0 10px;
-}
-
-header nav .container ul li a{
-    text-decoration: none;
-    color: #141414;
-}
-
-header nav .container ul li a:hover{
-    color: #016FB9;
-    border-bottom: 3px solid #016FB9;
+body{
+    background: #016FB9;
 }
