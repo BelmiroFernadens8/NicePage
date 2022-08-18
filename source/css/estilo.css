@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    background-color: #41658A;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+/* definindo o header */
+
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: no-repeat center/cover url("../img/unsplash.jpg");
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    margin: 0 10px;
+    color: black;
+}
+
+header nav ul li a:hover{
+    color: #016FB9;
+    border-bottom: 2px solid #016FB9;
+}
+
+header .header-content{
+    max-width: 500px;
+    margin: 150px 180px;
+}
+
+header .header-content .btn{
+    padding: 10px;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #016FB9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+}
+
+header .header-content .btn:hover{
+    color: white;
+    background-color: #016FB9;
+    border: 2px solid #016FB9;
+}
+
+/* Definindo section Services */
+.section-service{
+    padding: 30px;
+    background-color: white;
+}
+
+.section-service .container{
+    margin: auto;
+    padding: 10px;
+}
+
+.section-service .container .row{
+    margin: auto;
+    padding: 10px;
+}
+
+.section-service .container .row h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-service .container .row p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section-service .container .row button{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+}
+
+.section-service .container .row .btn1{
+    color: white;
+    background-color: #016FB9;
+    border: 2px solid #016FB9;
+}
+
+.section-service .container .row .btn1:hover{
+    color: white;
+    background-color: #0163a3;
+    border: 2px solid #0163a3;
+}
+
+.section-service .container .row .btn2{
+    color: white;
+    background-color: #FFB800;
+    border: 2px solid #FFB800;
+}
+
+.section-service .container .row .btn2:hover{
+    color: white;
+    background-color: #e6a502;
+    border: 2px solid #e6a502;
+}
+
