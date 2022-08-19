@@ -61,6 +61,7 @@ header .header-content .btn:hover{
 }
 
 /* Definindo section Services */
+
 .section-service{
     padding: 30px;
     background-color: white;
@@ -69,6 +70,7 @@ header .header-content .btn:hover{
 .section-service .container{
     margin: auto;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .section-service .container .row{
@@ -116,5 +118,106 @@ header .header-content .btn:hover{
     color: white;
     background-color: #e6a502;
     border: 2px solid #e6a502;
+}
+
+/* Definindo section packages */
+
+.section-packages{
+    padding: 30px;
+    background-color: #EEF7FB;
+}
+
+.section-packages .container{
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-packages .container .card {
+    width: 250px;
+    padding: 15px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-packages .container .card p {
+    text-align: center;
+}
+
+.section-packages .container .card img{
+    width: 60px;
+    height: 60px;
+    margin: 30px 0;
+    transition: all 1s;
+}
+
+.section-packages .container .card img:hover{
+    stroke: #0163a3;
+    transform: scale(1.1);
+}
+
+/* Definindo section works */
+
+.section-works{
+    padding: 30px;
+    background-color: white;
+}
+
+.section-works .content-text{
+    padding: 10px;
+    margin: 30px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.section-works .content-text button{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #016FB9;
+    border: 2px solid #016FB9;
+    font-size: 1.0rem;
+}
+
+.section-works .content-text button:hover{
+    color: white;
+    background-color: #0163a3;
+    border: 2px solid #0163a3;
+}
+
+.section-works .container{
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-works .container .card-img{
+    width: 350px;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-works .container .card-img img{
+    width: 350px;
+    height: 300px;
+    transition: all 1s;
+}
+
+.section-works .container .card-img img:hover{
+    stroke: #0163a3;
+    transform: scale(1.1);
 }
 
